@@ -1,3 +1,9 @@
+"""
+this module is pretty simple and straight forward
+only in charge of grabbing the raw image and placing
+it into shared memory.
+"""
+
 import cv2
 
 

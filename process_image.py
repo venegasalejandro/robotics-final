@@ -1,3 +1,12 @@
+"""
+not a simple module, but it is pretty straightforward.
+once a raw image is found in shared memory, this thread takes
+that image applies some filters to try to identify the
+red and blue rods we are using as our swords. with the filters
+in place we derive contours and centroids for the rods and
+place that data into our shared memory
+"""
+
 import numpy as np
 
 import cv2
